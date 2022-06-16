@@ -2,6 +2,8 @@
 //https://blog.jakelee.co.uk/creating-a-history-clearing-chrome-extension/#loading-options
 
 const sites = [
+    //EMERGENCY CASE
+    //'https://en.wikipedia.org/wiki/Main_Page'
     'https://en.wikipedia.org/wiki/Napoleon',
     'https://en.wikipedia.org/wiki/JavaScript',
     'https://en.wikipedia.org/wiki/Rabbit',
