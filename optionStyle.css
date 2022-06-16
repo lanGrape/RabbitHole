@@ -1,0 +1,38 @@
+body{
+    background-color: #645340;
+    width: 340px;
+    height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+#start {
+    margin-top: 5px; 
+    width: 100px; 
+    height: 40px; 
+    background-color: white; 
+    border-radius: 10px; 
+    font-size: 16px;
+}
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+#subtext{
+    color: white;
+    text-align: center;
+}
+#toptext{
+    color: red;
+    text-align: center;
+}
+#besttime{
+    color:lightgray;
+    text-align: center;
+}
+#gameswon{
+    color:lightgray;
+    text-align: center;
+}
