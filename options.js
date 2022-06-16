@@ -3,9 +3,9 @@
 
 const sites = [
     //EMERGENCY CASE
-    //'https://en.wikipedia.org/wiki/Main_Page'
-    'https://en.wikipedia.org/wiki/Napoleon',
+    // 'https://en.wikipedia.org/wiki/Main_Page'
     'https://en.wikipedia.org/wiki/JavaScript',
+    'https://en.wikipedia.org/wiki/Napoleon',
     'https://en.wikipedia.org/wiki/Rabbit',
     'https://en.wikipedia.org/wiki/Redux_(JavaScript_library)',
     'https://en.wikipedia.org/wiki/SpongeBob_SquarePants',
@@ -29,6 +29,7 @@ function start() {
     console.log(sites.length);
 
     let startSite = 'https://en.wikipedia.org/wiki/Special:Random';
+    // let startSite = 'https://en.wikipedia.org/wiki/Byzantine_Empire';
     let endSite = sites[Math.floor(Math.random() * sites.length)];
 
     while(startSite === endSite) {

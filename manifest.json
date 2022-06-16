@@ -1,8 +1,18 @@
 {
     "name": "Rabbit Hole",
     "version": "0.0.0",
-    "description": "My extension doesn't do anything yet!",
+    "description": "A game where you go down the Wikipedia Rabbit Hole!",
     "manifest_version": 2,
+
+    "commands": {
+        "nosearching": {
+          "suggested_key": {
+            "default": "Ctrl+F",
+            "mac": "MacCtrl+F"
+          },
+          "description": "Prevent cheating"
+        }
+    },
 
     "background": {
         "persistent": false,
@@ -14,7 +24,7 @@
         "chrome_style": true
     },
 
-    "permissions": ["history", "storage", "tabs", "webNavigation", "http://*/*", "https://*/*"],
+    "permissions": ["history", "storage", "tabs", "webNavigation", "http://*/*", "https://*/*", "activeTab", "scripting"],
 
     "icons": {
         "48": "images/icon_48.png",
