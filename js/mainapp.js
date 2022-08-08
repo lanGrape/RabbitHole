@@ -138,11 +138,6 @@ function startGame(s, e) {
   //Starting link goes here??
   gameRunning = true;
   chrome.tabs.create({ url: s });
-
-  var myAudio = new Audio(chrome.runtime.getURL("amongus.mp3"));
-  myAudio.volume = 0.005;
-  myAudio.play();
-
   // alert('Game started, you have to find: "' + e + '"');
 }
 
